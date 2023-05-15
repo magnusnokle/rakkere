@@ -13,7 +13,7 @@ function App() {
    <>
    <body className="bg-black w-screen h-screen text-white font-black ">
    <a className='hover:text-red-900 duration-500	flex lg:hidden' >KONTAKT</a>
-
+    {/* splash page */}
     <div classname="w-screen  h-screen " id="hei">
     
       <div className="flex items-center relative top-28 flex-col w-screen h-96">
@@ -26,7 +26,7 @@ function App() {
 
 
       <div className='h-96 w-screen bg-black text-black '></div>
-      
+      {/* basic info om rakkere, har bare fill text atm */}
         <div id="prosjekter" className=' w-scren h-screen lg:h-screen h-5/12 relative  bg-black border-blue-900  text-center'>
           <div className='lg:w-11/12 w-screen h-max flex lg:flex-row flex-col border-green-900 m-auto  lg:relative lg:top-24   md:flex-row'>
             <div className='lg:w-7/12 md:w-5/12 w-11/12 h-max mt-3 border-red-900  m-auto relative lg:right-28 right-0'>
@@ -49,6 +49,7 @@ function App() {
             </a>
           </div>
           </div>
+          {/* musikk, må jobbe med stylingen */}
       <div className=' w-screen h-screen relative  bg-black  text-center text-red-800 font-black   mt-0' id='musikk'>
         <div className=' w-max h-max  text-5xl lg:text-7xl '>
            <div className='font-2xl'>MUSIKK</div>
@@ -63,6 +64,7 @@ function App() {
           </div>
           
         </div>
+        {/* vlog, må jobbe med sm versjon av video */}
         <a href='#video' className="text-2xl lg:text-4xl duration-500   text-red-900 text-center items-center  "> 
             <img className='lg:h-24 flex h-14  lg:hover:h-32 lg:hover:bottom-1 relative ml-auto mr-auto duration-500 rotate-90' src={pil}/>
           </a>
